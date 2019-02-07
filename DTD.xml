@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tabelecss2.xsl"?> 
+
+<!DOCTYPE exYuPesme 
+	[
+<!ELEMENT exYuPesme (autor)+>
+<!ATTLIST exYuPesme
+xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (album)+>
+<!ATTLIST autor
+xmlns CDATA #FIXED ''
+brojAlbuma CDATA #REQUIRED
+ime CDATA #REQUIRED
+pol CDATA #REQUIRED>
+
+<!ELEMENT album (pesma)+>
+<!ATTLIST album
+xmlns CDATA #FIXED ''
+godina CDATA #REQUIRED
+naziv CDATA #REQUIRED>
+
+<!ELEMENT pesma (li)+>
+<!ATTLIST pesma
+xmlns CDATA #FIXED ''
+naslovPesme CDATA #REQUIRED>
+
+<!ELEMENT li (#PCDATA)>
+<!ATTLIST li
+xmlns CDATA #FIXED ''>
+	]>
