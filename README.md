@@ -1,4 +1,4 @@
-# Kreiranje i analiza korpusa tekstova jugoslovenskih rok pesama u periodu 1945-2003.<br/>
+# Kreiranje i analiza korpusa tekstova jugoslovenskih rok pesama od 1967-2003.<br/>
 Mentor: prof. dr Ranka Stanković<br/>
 Student: Ljudmila Petković 181/2017, ljudmila.petkovic@gmail.com<br/>
 
