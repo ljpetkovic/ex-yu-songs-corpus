@@ -1,7 +1,10 @@
-# Kreiranje i analiza korpusa tekstova jugoslovenskih rok pesama u periodu 1945-2003.<br/>
-Mentor: prof. dr Ranka Stanković<br/>
-Student: Ljudmila Petković 181/2017, ljudmila.petkovic@gmail.com<br/>
+# Računarska analiza korpusa tekstova _Yu_ rok pesama<br/>
 
-Cilj istraživanja jeste računarsko prikupljanje i analiza tekstova pesama izvođača iz bivše Jugoslavije. Dobijeni set podataka je preuzet sa veba metodom _grebanja veba_ (_web scraping_) i analiziran pomoću tehnika „iskopavanja iz teksta” (_text mining_) i _obrade prirodnih jezika_ (_natural language processing_), kako bi se stekao uvid u specifičnosti nekadašnje jugoslovenske muzičke scene. Predstavljeni kodovi omogućavaju sagledavanje određenih leksičko-stilskih osobenosti prisutnih u tekstovima pesama „ex-Yu” muzičara.
+Cilj istraživanja jeste računarsko prikupljanje i analiza tekstova pesama izvođača iz bivše Jugoslavije. Tekstovi su preuzeti sa sajta LyricWiki metodom _grebanja veba_ (engl. web scraping) i analizirani pomoću tehnika _kopanja po tekstu_ (engl. text mining) i obrade prirodnih jezika, kako bi se stekao uvid u specifičnosti ondašnje jugoslovenske muzičke scene. <br/>
+
+* `stylometry.r`: generiše vizualni prikaz grupisanja izvođača prema sličnosti tekstova pesama koje interpretiraju;
+* `potkorpusi.py`: generiše 30 datoteka (potkorpusa) sa tekstovima pesama za svakog izvođača ('Bajaga.txt', 'Bijelo-Dugme.txt' itd.);
+
+
 
 
