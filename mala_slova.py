@@ -1,3 +1,4 @@
+import os
 os.chdir('/Users/ljudmilapetkovic/Desktop/Preprocesirani_tekstovi')     
 
 import fileinput
