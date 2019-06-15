@@ -5,6 +5,8 @@ Cilj istraživanja jeste računarsko prikupljanje i analiza tekstova pesama izvo
 * `stylometry.r`: generiše vizualni prikaz grupisanja izvođača prema sličnosti tekstova pesama koje interpretiraju;
 * `potkorpusi.py`: generiše 30 '.txt' datoteka (potkorpusa) sa tekstovima pesama za svakog izvođača ('Bajaga.txt', 'Bijelo-Dugme.txt' itd.);
 * `mala_slova.py`: učitava 30 datoteka iz zadatog direktorijuma i velika slova svodi na mala;
+* `xml-anotiranje.py`: vrši anotiranje korpusa u skladu sa XML sintaksom korišćenjem biblioteke `yattag` i zamenu specijalnih karaktera karakterima izlazne sekvence pomoću biblioteke `xml.sax.saxutils`;
+
 
 
 
