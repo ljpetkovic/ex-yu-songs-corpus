@@ -1,12 +1,15 @@
-# Računarska analiza korpusa tekstova _Yu_ rok pesama<br/>
+# Computational analysis of the YU rock song lyrics corpus <br/>
 
-Cilj istraživanja jeste računarsko prikupljanje i analiza tekstova pesama izvođača iz bivše Jugoslavije. Tekstovi su preuzeti sa sajta LyricWiki metodom _grebanja veba_ (engl. web scraping) i analizirani pomoću tehnika _kopanja po tekstu_ (engl. text mining) i obrade prirodnih jezika, kako bi se stekao uvid u specifičnosti ondašnje jugoslovenske muzičke scene. <br/>
+The aim of the research is to collect and analyse the song lyrics by the rock artists from the former Yugoslavia. The lyrics were collected from the LyricWiki and MetroLyrics website using web scraping methods. The implementation of text mining and NLP techniques reveals the underlying textual patterns in the corpus, based on which one can explore characteristics of the then-Yugoslav music scene. <br/>
 
-* `grebanje_veba.py`: automatski preuzima tekstove pesama sa sajta LyricWiki pomoću biblioteke `lyricsmaster`;
-* `stylometry.r`: generiše vizualni prikaz grupisanja izvođača prema sličnosti tekstova pesama koje interpretiraju;
-* `potkorpusi.py`: generiše 30 '.txt' datoteka (potkorpusa) sa tekstovima pesama za svakog izvođača ('Bajaga.txt', 'Bijelo-Dugme.txt' itd.);
-* `mala_slova.py`: učitava 30 datoteka iz zadatog direktorijuma i velika slova svodi na mala;
-* `xml_anotiranje.py`: vrši anotiranje korpusa u skladu sa XML sintaksom korišćenjem biblioteke `yattag` i zamenu specijalnih karaktera karakterima izlazne sekvence pomoću biblioteke `xml.sax.saxutils`;
+* `lyricwiki.py`: scrapes the lyrics from the LyricWiki website using the `lyricsmaster` library;
+* `metrolyrics.py`: scrapes the lyrics from the MetroLyrics website using the `tswift` library;
+* `stylometry.r`: generates the dendrogram as a result of clustering the artists by their lyrics' similarity;
+* `subcorpora.py`: generates 30 '.txt' files (sub-corpora) with the lyrics for each artist ('Bajaga.txt', 'Bijelo-Dugme.txt' etc.);
+* `lowercase.py`: loads 30 files from the defined directory and changes upper case to lower case;
+* `xml_annotation.py`: annotates the corpus in the XML format with the `yattag` library, while replacing special characters with the escape sequence characters (see the `xml.sax.saxutils` library);
+
+
 
 
 
