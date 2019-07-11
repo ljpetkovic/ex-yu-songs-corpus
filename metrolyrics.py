@@ -19,8 +19,8 @@ def download_all_songs(artist, outfn):
     print('loading %d songs in parallel!' % len(artist_object.songs))
     pool.map(Song.load, songs)
     for song in songs:
-        print(song.lyrics, file=outfile)
-        print("\n\n", file=outfile)
+        print(song.lyrics.replace("\n"," "), file=outfile)
+        print(" ", file=outfile)
 
 
 if __name__ == '__main__':
