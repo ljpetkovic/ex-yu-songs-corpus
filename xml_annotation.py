@@ -19,7 +19,7 @@ with tag('exYuPesme'):
         curr_path = '{}/{}'.format(myroot, author)
         albums = [dir for dir in listdir(curr_path) if not isfile(join(curr_path, dir))]
         
-        with tag('autor', ime=author, brojAlbuma=len(albums), pol="", zanr="", rodnoMesto=""):
+        with tag('autor', ime=author, brojAlbuma=len(albums), pol="", zanr="", rodnoMesto="", tema=""):
             
             for album in albums:
                 with tag('album', naziv=album, godina="", izdavac=""):
